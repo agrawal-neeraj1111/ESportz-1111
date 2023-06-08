@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    border-radius: 16px;
+    align-items: center;
+}
+.navbar .img img{
+    width: 66px;
+    height: 50px;
+}
+.navbar .img{
+    margin-left: 11px;
+}
+.text{
+    display: flex;
+    width: 64%;
+    justify-content: space-evenly;
+    cursor: pointer;
+    margin-right: 157px;
+    color: yellow;
+    
+color: yellow;    
+}
+.navbar .btn button{  
+    width: 81%;
+    padding: 3px;
+    border-radius: 7px;
+    text-decoration: none;
+    border: navajowhite;
+    cursor: pointer;
+    color: black;
+    margin-left: 23px;
+}
+button{
+    border-radius: 5px;
+}
+
+.nav:hover{
+    color: yellowgreen;
+}
+.navbar .btn button:hover{
+    color:yellowgreen;
+}
