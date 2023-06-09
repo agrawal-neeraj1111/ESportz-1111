@@ -71,5 +71,12 @@
 .details{
     display: block;
 }
+.contact .right .textarea .text10 {
+    width: 165%;
+}
+.contact .right .input .text0{
+    width: 165%;
+}
+
 }
 
