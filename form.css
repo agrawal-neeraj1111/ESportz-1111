@@ -5,14 +5,16 @@
         margin-top: 61px;
     }
 .navbar .btn button{
-    margin-left: 27px;
-    width: 83%;
+    margin-left: 5px;
+    width: 93%;
 }
 .navbar .img{
     margin-left: -5px;
 }
 .text{
     justify-content: space-between;
+    width: 76%;
+    margin-left: -11px;
 }
 .neeraj{
     width: 95%;
@@ -76,6 +78,9 @@
 }
 .contact .right .input .text0{
     width: 165%;
+}
+.navbar .img{
+    margin-left: -10px;
 }
 
 }
