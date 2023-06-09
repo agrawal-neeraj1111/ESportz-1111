@@ -1,0 +1,75 @@
+@media(min-width:0) and (max-width:500px){
+    .details img{
+        width: 395px;
+        height: 271px;
+        margin-top: 61px;
+    }
+.navbar .btn button{
+    margin-left: 27px;
+    width: 83%;
+}
+.navbar .img{
+    margin-left: -5px;
+}
+.text{
+    justify-content: space-between;
+}
+.neeraj{
+    width: 95%;
+    margin-left: 18px;
+    font-size: 10px;
+}
+.Reach{
+    margin-left: 12px;
+}
+.btsm{
+    border-radius: 9px;
+    color: yellowgreen;
+    cursor: pointer;
+    padding: 5px;
+    width: 18%;
+    margin-bottom: 40px;
+
+}
+.heading{
+    font-size: 55px;
+    color: yellow;
+    margin-left: 22px;
+}
+.subheading{
+    color: blue;
+    font-size: 35px;
+    margin-left: 15px;
+}
+.Subheading .con{
+    color: white;
+    margin-left: 15px;
+    margin-top: 75px;
+    width: 96%;
+    font-size: 10px;
+}
+.Subheading .cont{
+    color: white;
+    margin-left: 14px;
+    width: 96%;
+    margin-top: -34px;
+    font-size: 10px;
+}
+.about .know{
+    margin-left: 14px;
+}
+.about .img{
+    width: 100%;
+    display: flex;
+}
+.about img{
+    margin: 0 auto;
+    margin-top: 38px;
+    height: 170px;
+    width: 88%;
+}
+.details{
+    display: block;
+}
+}
+
