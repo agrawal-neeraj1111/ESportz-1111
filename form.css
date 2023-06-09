@@ -83,6 +83,64 @@
 .navbar .img{
     margin-left: -10px;
 }
-
+.box .img img{
+    margin: 0 auto;
+    width: 103%;
+    margin-left: -5px;
+}
+.box1 .img img{
+    margin: 0 auto;
+    width: 91%;
+    margin-left: 12px;
+    margin-top: 25px;
+}
+.box2 .img img{
+    margin: 0 auto;
+    width: 99%;
+    margin-left: 1px;
+    margin-top: 48px;
+}
+.box{
+    display: block;
+}
+.box .content{
+    font-size: 14px;
+    margin: 0 auto;
+    width: 97%;
+    height: 214px;
+    margin-left: -17px;
+    margin-top: 17px;
+}
+.box2 .content{
+    font-size: 14px;
+    margin: 0 auto;
+    width: 85%;
+    height: 234px;
+    margin-left: 2px;
+    margin-top: 21px;
+}
+.box1 .content{
+    font-size: 14px;
+    margin: 0 auto;
+    width: 82%;
+    height: 247px;
+    margin-left: 5px;
+    margin-top: 52px;
+}
+.box .content .p{
+    color: cornflowerblue;
+}
+.box2 .content .p{
+    color: cornflowerblue;
+}
+.box1 .content .p{
+    color: cornflowerblue;
+}
+.box1{
+    display: block;
+}
+.box2{
+    display: block;
+}
 }
 
