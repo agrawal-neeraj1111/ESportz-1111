@@ -5,8 +5,9 @@
         margin-top: 61px;
     }
 .navbar .btn button{
-    margin-left: 5px;
+    margin-left: 2px;
     width: 93%;
+    border-radius: 11px;
 }
 .navbar .img{
     margin-left: -5px;
