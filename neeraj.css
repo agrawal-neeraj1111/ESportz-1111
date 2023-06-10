@@ -7,7 +7,6 @@ body {
 }
 
 .navbar {
-    background-color: lightseagreen;
     display: flex;
     align-items: center;
     height: 56px;
@@ -15,8 +14,8 @@ body {
     position: sticky;
     top: 0px;
     z-index: 1;
+background-image: url(img/sunset-1373171_1280.jpg);
 }
-
 .navbar .img img {
     width: 66px;
     height: 60px;
@@ -39,14 +38,15 @@ body {
 }
 
 .navbar .btn button {
-    width: 22%;
-    padding: 5px;
-    border-radius: 26px;
-    text-decoration: none;
-    border: navajowhite;
+    border-radius: 6px;
+    background: none;
+    border: 2px solid white;
+    color: white;
     cursor: pointer;
-    color: black;
     margin-left: 235px;
+    padding: 3px;
+    width: 25%;
+    text-decoration: none;
 }
 
 button {
@@ -86,14 +86,15 @@ button {
 }
 
 .btnsm {
-    border-radius: 24px;
-    color: yellowgreen;
+    border-radius: 8px;
+    color: white;
     cursor: pointer;
     padding: 5px;
     width: 81px;
     margin-bottom: 32px;
+    background: none;
+    border: 2px solid white;
 }
-
 .neeraj {
     width: 52%;
     margin-left: 50px;
@@ -152,7 +153,7 @@ button {
 }
 
 .home .Reach button:hover {
-    color: black;
+    color: blue;
 }
 
 .service .head1 {
