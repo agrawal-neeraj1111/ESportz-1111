@@ -214,6 +214,10 @@ button {
     margin-top: 93px;
 }
 
+.display1{
+    display: none;
+}
+
 .box1 .img img {
     border-radius: 17px;
     margin-left: -68px;
