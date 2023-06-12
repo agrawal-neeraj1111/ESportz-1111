@@ -1,6 +1,7 @@
-html{
+html {
     scroll-behavior: smooth;
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -14,8 +15,9 @@ body {
     position: sticky;
     top: 0px;
     z-index: 1;
-background-image: url(img/sunset-1373171_1280.jpg);
+    background-image: url(img/sunset-1373171_1280.jpg);
 }
+
 .navbar .img img {
     width: 66px;
     height: 60px;
@@ -78,6 +80,7 @@ button {
     font-size: 61px;
     color: yellow;
     margin-left: 45px;
+    text-shadow: 5px 5px 13px yellow;
 }
 
 .Reach {
@@ -92,9 +95,11 @@ button {
     padding: 5px;
     width: 81px;
     margin-bottom: 32px;
+ 
     background: none;
     border: 2px solid white;
 }
+
 .neeraj {
     width: 52%;
     margin-left: 50px;
@@ -116,6 +121,7 @@ button {
     position: relative;
     top: 30px;
     margin-bottom: 42px;
+    text-shadow: 5px 5px 13px white;
 }
 
 .about .know {
@@ -165,6 +171,7 @@ button {
     margin-top: 19px;
     position: relative;
     bottom: -35px;
+    text-shadow: 5px 5px 13px white;
 }
 
 .box .img img {
@@ -191,7 +198,7 @@ button {
 .box .content {
     background-color: #451233a8;
     padding: 21px;
-    border-radius: 54px;
+    border-radius: 35px;
     width: 65%;
     height: 100%;
     margin-left: 106px;
@@ -200,7 +207,7 @@ button {
 .box2 .content {
     background-color: #451233a8;
     padding: 21px;
-    border-radius: 54px;
+    border-radius: 35px;
     width: 52%;
     height: 207px;
     margin-left: -50px;
@@ -210,14 +217,14 @@ button {
 .box1 .content {
     background-color: #451233a8;
     padding: 21px;
-    border-radius: 54px;
+    border-radius: 35px;
     width: 52%;
     height: 207px;
-    margin-left: -50px;
+    margin-left: -159px;
     margin-top: 93px;
 }
 
-.display1{
+.display1 {
     display: none;
 }
 
@@ -272,6 +279,7 @@ button {
     position: relative;
     bottom: -21px;
     color: white;
+    text-shadow: 5px 5px 13px white;
 }
 
 .contact .left {
@@ -287,23 +295,28 @@ button {
     margin-left: -128px;
     margin-top: 20px;
 }
-.contact .row .icon{
+
+.contact .row .icon {
     margin: 4px;
     font-size: 23px;
 }
-.contact .row .icon a{
+
+.contact .row .icon a {
     padding: 25px;
 }
-.contact .sub5{
+
+.contact .sub5 {
     font-size: 25px;
     margin-left: -98px;
 }
-.contact .right form{
+
+.contact .right form {
     padding: 62px;
     margin-top: -50px;
     margin-left: -62px;
 }
-.contact .right .textarea .text10{
+
+.contact .right .textarea .text10 {
     margin-top: 12px;
     height: 76px;
     width: 374%;
@@ -312,7 +325,8 @@ button {
     margin-left: -190px;
     font-size: 17px;
 }
-.contact .right .input .text0{
+
+.contact .right .input .text0 {
     margin-top: 11px;
     height: 12px;
     width: 372%;
@@ -320,9 +334,10 @@ button {
     padding: 10px;
     margin-left: -190px;
     font-size: 15px;
-border: none;
+    border: none;
 }
-.contact .right .btn10s button{
+
+.contact .right .btn10s button {
     margin-left: -144%;
     margin-top: 11px;
     padding: 3px;
@@ -330,46 +345,66 @@ border: none;
     height: 29px;
     width: 83%;
 }
-.contact .right .btn10s button .send{
+
+.contact .right .btn10s button .send {
     margin-left: -10px;
 }
-.contact .right .sub6{
+
+.contact .right .sub6 {
     font-size: 25px;
     margin-left: -192px;
 }
-.footer{
+
+.footer {
     background-color: black;
     height: 49px;
     text-align: center;
 }
-.footer .foot{
+
+.footer .foot {
     color: white;
     font-size: 19px;
     position: relative;
     bottom: -13px;
 }
-.footer .foot a{
+
+.footer .foot a {
     color: yellow;
     text-decoration: none;
 }
 
-.contact i:hover{
+.contact i:hover {
     animation: shake 1s;
 }
-@keyframes shake{
-10%{transform: rotate(20deg);}
-20%{transform: rotate(-20deg);}
-30%{transform: rotate(20deg);}
-40%{transform: rotate(-20deg);}
+
+@keyframes shake {
+    10% {
+        transform: rotate(20deg);
+    }
+
+    20% {
+        transform: rotate(-20deg);
+    }
+
+    30% {
+        transform: rotate(20deg);
+    }
+
+    40% {
+        transform: rotate(-20deg);
+    }
 }
-.contact .right .btn10s button .send:hover{
+
+.contact .right .btn10s button .send:hover {
     color: blue;
 }
-.text a{
+
+.text a {
     text-decoration: none;
     color: yellow;
     font-size: 19px;
 }
-.class{
+
+.class {
     color: chartreuse;
 }
