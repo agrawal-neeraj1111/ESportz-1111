@@ -9,12 +9,47 @@
     <link rel="stylesheet" href="neeraj.css">
     <link rel="stylesheet" href="form.css">
     <link rel="shortcut icon" href="img/icons8-ps-5-48.png" type="image/jpg">
-    
+    <link rel="stylesheet" href="loader.css">
+    <link rel="stylesheet" href="hamburger.css">
+  
 </head>
 <script src="https://kit.fontawesome.com/6eafad1edc.js" crossorigin="anonymous"></script>
 
 <body>
+    <!-- loader  -->
+    <div class="loader"></div>
 
+    <!-- hamburger button  -->
+    <div class="navigation">
+        <section class="top-nav">
+            <div>
+                ESportZ Website
+            </div>
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+                <div class='menu-button'></div>
+            </label>
+            <ul class="menu">
+                <a href="#home">
+                    <li>Home</li>
+                </a>
+                <a href="#about">
+                    <li>About Us</li>
+                </a>
+                <a href="#service">
+                    <li>Services</li>
+                </a>
+                <a href="#contact">
+                    <li>Contact Us</li>
+                </a>
+            </ul>
+        </section>
+    </div>
+    <!-- scroll up button -->
+    <a class="scroll" href="#home">
+        <i class="fa-solid fa-angle-up">
+        </i>
+    </a>
     <!-- navbar section -->
     <div class="navbar">
         <div class="img">
@@ -83,7 +118,7 @@
                 <div class="cont">
                     <div class="class">Is gaming a healthy? </div> <br>
                     Most people have a healthy relationship with gaming and it is one of many interests and activities
-                    they enjoy. However, around 10% of gamers are at risk of playing problematically – which means that
+                    they enjoy. However, around 10% of gamers are at risk of playing problematically which means that
                     gaming has a negative impact on their life.
                 </div>
             </div>
@@ -118,7 +153,12 @@
             </div>
             <div class="content">
                 <p class="p">Grand Theft Auto 5</p>
-                <p>Grand Theft Auto V is a 2013 action-adventure game developed by Rockstar North and published by Rockstar Games. It is the seventh main entry in the Grand Theft Auto series, following 2008's Grand Theft Auto IV, and the fifteenth instalment overall.As mentioned above, the safest way to play GTA V mobile is through Steam Link. This works on both Android and iOS but requires you to have a copy of GTA V on Steam and installed on your PC. You also need to download the official Steam Link app on your mobile device.  </p>
+                <p>Grand Theft Auto V is a 2013 action-adventure game developed by Rockstar North and published by
+                    Rockstar Games. It is the seventh main entry in the Grand Theft Auto series, following 2008's Grand
+                    Theft Auto IV, and the fifteenth instalment overall.As mentioned above, the safest way to play GTA V
+                    mobile is through Steam Link. This works on both Android and iOS but requires you to have a copy of
+                    GTA V on Steam and installed on your PC. You also need to download the official Steam Link app on
+                    your mobile device. </p>
             </div>
             <div class="img">
                 <img src="img/gta.jpg" alt="" class="display2">
@@ -132,7 +172,12 @@
             </div>
             <div class="content">
                 <p class="p">Minecraft</p>
-                <p>Minecraft is a 2011 sandbox game developed by Mojang Studios. The game was created by Markus "Notch" Persson in the Java programming language. Following several early private testing versions, it was first made public in May 2009 before being fully released in November 2011, with Notch stepping down and Jens "Jeb" Bergensten taking over development.In Minecraft, players explore a blocky, procedurally generated, three-dimensional world with virtually infinite terrain and may discover and extract raw materials, craft tools and items. </p>
+                <p>Minecraft is a 2011 sandbox game developed by Mojang Studios. The game was created by Markus "Notch"
+                    Persson in the Java programming language. Following several early private testing versions, it was
+                    first made public in May 2009 before being fully released in November 2011, with Notch stepping down
+                    and Jens "Jeb" Bergensten taking over development.In Minecraft, players explore a blocky,
+                    procedurally generated, three-dimensional world with virtually infinite terrain and may discover and
+                    extract raw materials, craft tools and items. </p>
             </div>
         </div>
 
@@ -196,15 +241,20 @@
             </div>
             <div class="right">
                 <div class="sub6">Message me</div>
-                <form action="">
-                    <div class="input"><input class="text0" type="text" placeholder="Your Name"></div>
-                    <div class="input"><input class="text0" type="text" placeholder="Your Email"></div>
-                    <div class="textarea"><textarea class="text10" name="" id="" cols="30" rows="10"
-                            placeholder="Your Message..."></textarea></div>
+
+                <form name="myForm">
+                        <div class="input">
+                            <input type="text" name="Name" class="text0" placeholder="Your Name" required>
+                        </div>
+                    <div class="input">
+                        <input type="text" name="Email" class="text0" placeholder="Your Email" required>
+                    </div>
+                    <div class="textarea">
+                        <textarea cols="30" rows="10" name="Message" class="text10" placeholder="Your Message.."
+                            required></textarea>
+                    </div>
                     <div class="btn10s">
-                        <button>
-                            <div class="send">Send message</div>
-                        </button>
+                        <button type="submit" name="submit" class="send">Send message</button>
                     </div>
                 </form>
             </div>
@@ -213,6 +263,8 @@
             <span class="foot">Created By <a href="" target="_blank">Neeraj Agrawal</a> | <i
                     class="fa-regular fa-copyright"></i>2023All right reserved</span>
         </div>
+        <script src="loader.js"></script>
+        <script src="form.js"></script>
 </body>
 
 </html>

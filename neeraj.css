@@ -15,7 +15,7 @@ body {
     position: sticky;
     top: 0px;
     z-index: 1;
-    background-image: url(img/sunset-1373171_1280.jpg);
+    background-image: linear-gradient(10deg, white, violet, rgb(71, 71, 185), rgb(107, 2, 182), purple, black);
 }
 
 .navbar .img img {
@@ -95,7 +95,7 @@ button {
     padding: 5px;
     width: 81px;
     margin-bottom: 32px;
- 
+
     background: none;
     border: 2px solid white;
 }
@@ -208,8 +208,8 @@ button {
     background-color: #451233a8;
     padding: 21px;
     border-radius: 35px;
-    width: 52%;
-    height: 207px;
+    width: 57%;
+    height: 252px;
     margin-left: -50px;
     margin-top: 93px;
 }
@@ -218,11 +218,12 @@ button {
     background-color: #451233a8;
     padding: 21px;
     border-radius: 35px;
-    width: 52%;
-    height: 207px;
+    width: 55%;
+    height: 238px;
     margin-left: -159px;
     margin-top: 93px;
 }
+
 
 .display1 {
     display: none;
@@ -319,7 +320,7 @@ button {
 .contact .right .textarea .text10 {
     margin-top: 12px;
     height: 76px;
-    width: 374%;
+    width: 272%;
     border-radius: 5px;
     padding: 10px;
     margin-left: -190px;
@@ -329,9 +330,9 @@ button {
 .contact .right .input .text0 {
     margin-top: 11px;
     height: 12px;
-    width: 372%;
+    width: 272%;
     border-radius: 5px;
-    padding: 10px;
+    padding: 12px;
     margin-left: -190px;
     font-size: 15px;
     border: none;
@@ -407,4 +408,15 @@ button {
 
 .class {
     color: chartreuse;
+}
+
+.scroll {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+}
+
+.navigation {
+    display: none;
 }

@@ -1,25 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE>
+<html lang='en'>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> Loader example </title>
     <style>
-li:nth-child(odd){
-    color: red;
-}
+        .loading-gif {
+            max-width: 500px;
+        }
+
+        .pre-loader {
+            position: fixed;
+            z-index: 100; /** make sure this is the highest value compared to all other divs **/
+            top: 0;
+            left: 0;
+            background: #191f26;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+        }
+
+        .pre-loader.hidden {
+            animation: fadeOut 2s; /** change to 1s */
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes fadeOut {
+            100% {
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
     </style>
 </head>
 <body>
-    <li>text1</li>
-    <li>text2</li>
-    <li>text3</li>
-    <li>text4</li>
-    <li>text5</li>
-    <li>text6</li>
-    <li>text7</li>
-    <li>text8</li>
-    <li>text9</li>
-    <li>text10</li>
+<!--- Your content goes here -->
+<p>Page content</p>
+<div class='pre-loader'>
+    <img class='loading-gif' alt='loading' src="https://media0.giphy.com/media/11FuEnXyGsXFba/source.gif"/>
+</div>
+
+<!-- js to hide preloader loading is done -->
+<script type='text/javascript'>
+    window.addEventListener('load', function () {
+        document.querySelector('.pre-loader').className += ' hidden';
+    });
+</script>
 </body>
 </html>
