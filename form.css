@@ -43,12 +43,16 @@
     font-size: 55px;
     color: yellow;
     margin-left: 22px;
+    position: relative;
+    top: 16px;
+    margin-bottom: 16px;
 }
 .subheading{
     color: blue;
     font-size: 35px;
     margin-left: 15px;
-    text-shadow: 11px 12px 4px blue;
+    text-shadow: 9px 1px 6px blue;
+
 }
 .Subheading .con{
     color: white;
@@ -103,15 +107,15 @@
 }
 .box1 .img img{
     margin: 0 auto;
-    width: 91%;
-    margin-left: 16px;
+    width: 87%;
+    margin-left: 19px;
     margin-top: 54px;
 }
 
 .box2 .img img{
     margin: 0 auto;
-    width: 99%;
-    margin-left: 1px;
+    width: 90%;
+    margin-left: 13px;
     margin-top: 48px;
 }
 .box{
@@ -121,28 +125,28 @@
     font-size: 14px;
     margin: 0 auto;
     width: 113%;
-    height: 255px;
     margin-left: -16px;
     margin-top: 17px;
-    height: 295px;
+    height: 100%;
+
 }
 .box1 .content{
     background-color: #451233a8;
     padding: 21px;
     border-radius: 35px;
     width: 94%;
-    height: 383px;
+    height: 100%;
     margin-left: 10px;
     margin-top: 29px;
 }
  .box2 .content{
-        background-color: #451233a8;
-        padding: 21px;
-        border-radius: 35px;
-        width: 94%;
-        height: 419px;
-        margin-left: 10px;
-        margin-top: 29px;
+    background-color: #451233a8;
+    padding: 21px;
+    border-radius: 35px;
+    width: 98%;
+    height: 100%;
+    margin-left: 5px;
+    margin-top: 29px;
 }
 .box .content .p{
     color: cornflowerblue;
@@ -207,5 +211,12 @@
 }
 .navigation{
     display: block;
+    position:sticky;
+    top: 0;
+    z-index: 1;
+}
+.menu a li{
+    background-image: linear-gradient(45deg,red,pink,orange);
+    color: black;
 }
 }
