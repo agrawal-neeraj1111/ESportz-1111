@@ -18,12 +18,14 @@
     margin-left: -11px;
 }
 .neeraj{
-    width: 95%;
-    margin-left: 18px;
-    font-size: 10px;
+    margin-top: 14px;
+    width: 74%;
+    margin-left: 20px;
+    font-size: 11px;
+    color: chartreuse;
 }
 .Reach{
-    margin-left: 12px;
+    margin-left: -2px;
 }
 .btsm{
     border-radius: 9px;
@@ -34,6 +36,9 @@
     margin-bottom: 40px;
 
 }
+.bro{
+    display: none;
+}
 .heading{
     font-size: 55px;
     color: yellow;
@@ -43,6 +48,7 @@
     color: blue;
     font-size: 35px;
     margin-left: 15px;
+    text-shadow: 11px 12px 4px blue;
 }
 .Subheading .con{
     color: white;
@@ -116,26 +122,27 @@
     margin: 0 auto;
     width: 113%;
     height: 255px;
-    margin-left: -21px;
+    margin-left: -16px;
     margin-top: 17px;
     height: 295px;
 }
-.box2 .content{
-    font-size: 14px;
-    margin: 0 auto;
-    width: 101%;
-    height: 308px;
-    margin-left: -2px;
-    margin-top: 21px;
-}
 .box1 .content{
-    font-size: 14px;
-    margin: 0 auto;
-    width: 95%;
-    height: 266px;
-    margin-left: 9px;
-    margin-top: 18px;
-    height: 290px;
+    background-color: #451233a8;
+    padding: 21px;
+    border-radius: 35px;
+    width: 94%;
+    height: 383px;
+    margin-left: 10px;
+    margin-top: 29px;
+}
+ .box2 .content{
+        background-color: #451233a8;
+        padding: 21px;
+        border-radius: 35px;
+        width: 94%;
+        height: 419px;
+        margin-left: 10px;
+        margin-top: 29px;
 }
 .box .content .p{
     color: cornflowerblue;
@@ -161,7 +168,7 @@
 }
 .contact .right .btn10s button {
     margin-left: 35px;
-    width: 33%;
+    width: 41%;
 }
 .contact .right .input .text0{
     width: 84%;
