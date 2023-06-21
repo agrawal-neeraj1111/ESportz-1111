@@ -15,15 +15,16 @@ body {
     position: sticky;
     top: 0px;
     z-index: 1;
-    background-image: linear-gradient(10deg, white, violet, rgb(71, 71, 185), rgb(107, 2, 182), purple, black);
+    background-color: rgba(0, 0, 0, 0.7);
 }
-.bro{
-    background-image: linear-gradient(45deg,pink,blue);
+
+.box5 {
+    background-image: linear-gradient(45deg, pink, blue);
     height: 142px;
     width: 144px;
     align-items: center;
-    display: flex;
     justify-content: center;
+    display: flex;
     color: white;
     border-radius: 10px;
     transition: all 4s;
@@ -31,16 +32,27 @@ body {
     margin-top: 60px;
     text-align: center;
 }
-.bro:hover{
-    transform:rotate(360deg);
-border-radius: 10px;
-font-size: 30px;
-background-image: linear-gradient(45deg,red,blue);
-width: 200px;
-height: 200px;
+
+.div input {
+    width: 56%;
+    margin-left: 77px;
+    border: none;
+    padding: 4px;
+    text-align: center;
+    border-radius: 5px;
 }
-.wee{
-display: flex; 
+
+.box5:hover {
+    transform: rotate(360deg);
+    border-radius: 10px;
+    font-size: 30px;
+    background-image: linear-gradient(45deg, red, blue);
+    width: 200px;
+    height: 200px;
+}
+
+.neeraj1 {
+    display: flex;
 }
 
 .navbar .img img {
@@ -66,15 +78,16 @@ display: flex;
 
 .navbar .btn button {
     border-radius: 6px;
-    background: none;
     border: 2px solid white;
     color: white;
     cursor: pointer;
-    margin-left: 235px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-left: -1px;
     padding: 3px;
-    width: 25%;
+    width: 118%;
     text-decoration: none;
 }
+
 
 button {
     border-radius: 5px;
@@ -84,8 +97,9 @@ button {
     color: yellowgreen;
     cursor: pointer;
 }
-.bro{
-    background-image: linear-gradient(45deg,pink,blue);
+
+.bro {
+    background-image: linear-gradient(45deg, pink, blue);
     height: 142px;
     width: 144px;
     align-items: center;
@@ -98,6 +112,7 @@ button {
     margin-top: 60px;
     text-align: center;
 }
+
 .navbar .btn button:hover {
     color: yellowgreen;
 }
@@ -146,7 +161,7 @@ button {
 
 
 .about {
-    background-color: #370023ed;
+    background-color: #432099;
 }
 
 .about .ag {
@@ -222,7 +237,7 @@ button {
 }
 
 .service {
-    background-color: #451233a3;
+    background-color: #42209799;
     margin-top: -19px;
 }
 
@@ -254,7 +269,7 @@ button {
     margin-top: 72px;
 }
 
-.box1 .content{
+.box1 .content {
     background-color: #451233a8;
     padding: 21px;
     border-radius: 35px;
@@ -311,8 +326,7 @@ button {
 }
 
 .contact {
-    background-color: #88687d69;
-}
+  background-color: #88687d;}
 
 .contact .h5 {
     text-align: center;
@@ -344,6 +358,7 @@ button {
 
 .contact .row .icon a {
     padding: 25px;
+    color: #0000ffa8;
 }
 
 .contact .sub5 {
@@ -429,7 +444,7 @@ button {
 
     30% {
         transform: rotate(20deg);
-     }
+    }
 
     40% {
         transform: rotate(-20deg);
@@ -459,4 +474,9 @@ button {
 
 .navigation {
     display: none;
+}
+
+
+.navbar .btn {
+    margin-left: 240px;
 }

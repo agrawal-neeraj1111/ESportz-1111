@@ -1,4 +1,6 @@
 @media(min-width:0) and (max-width:500px) {
+
+
     .details img {
         width: 395px;
         height: 271px;
@@ -11,13 +13,8 @@
         margin-left: -11px;
     }
 
-    .div input {
-        width: 56%;
-        margin-left: 77px;
-        border: none;
-        padding: 4px;
-        text-align: center;
-        border-radius: 5px;
+    .user a {
+        color: white;
     }
 
     .neeraj {
@@ -46,6 +43,7 @@
         display: none;
     }
 
+
     .heading {
         font-size: 55px;
         color: yellow;
@@ -53,6 +51,11 @@
         position: relative;
         top: 16px;
         margin-bottom: 16px;
+
+    }
+
+    .box5 {
+        display: none;
     }
 
     .subheading {
@@ -61,6 +64,10 @@
         margin-left: 15px;
         text-shadow: 9px 1px 6px blue;
 
+    }
+
+    .neeraj1 {
+        display: flex;
     }
 
     .Subheading .con {
